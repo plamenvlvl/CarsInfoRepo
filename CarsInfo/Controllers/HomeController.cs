@@ -15,7 +15,7 @@ namespace CarsInfo.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "In this app you can get information for cars";
 
             return View();
         }
